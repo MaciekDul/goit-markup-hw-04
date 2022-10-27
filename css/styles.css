@@ -124,6 +124,7 @@ body {
   padding-top: 10%;
   padding-top: 200px;
 }
+
 .button-disription {
   background-color: var(--button-bacground-color);
   font-weight: 700;
@@ -199,6 +200,9 @@ body {
   justify-content: space-between;
   padding-left: 0;
   margin: 0;
+}
+.lorem {
+  width: calc((100% - 3 * 30px) / 4);
 }
 .team-element {
   width: calc((100% - 3 * 30px) / 4);
@@ -290,6 +294,7 @@ body {
   padding-left: 0;
   align-items: center;
   padding-bottom: 94px;
+  width: calc((100% - 2 * 30px) / 3);
 }
 .work-content {
   width: 370px;
