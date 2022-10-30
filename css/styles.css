@@ -395,15 +395,16 @@ a.footer-social-media {
   padding-bottom: 94px;
   width: calc((100% - 2 * 30px) / 3);
 }
-.work-progres:hover {
+.work-content:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
 .work-content {
-  width: 370px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  flex-basis: 370px;
+  margin: 0 auto;
+  list-style: none;
+  border: 1px solid #eeeeee;
 }
 .social-media {
   display: flex;
